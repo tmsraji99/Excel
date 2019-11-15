@@ -1,0 +1,15 @@
+package com.example.demo.sender;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+
+public class Sender {
+
+	@Autowired
+	private JmsTemplate jmsTemplate;
+	
+	
+	public void saveExcel() {
+		jmsTemplate.co
+	}
+}

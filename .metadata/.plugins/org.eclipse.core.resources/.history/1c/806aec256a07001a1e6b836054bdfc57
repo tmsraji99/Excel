@@ -1,0 +1,48 @@
+package com.example.demo.sender;
+
+import java.util.UUID;
+
+import javax.jms.DeliveryMode;
+import javax.jms.JMSException;
+import javax.jms.Message;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessagePostProcessor;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Sender {
+
+	@Autowired
+	JmsTemplate jmsTemplate;
+
+	@Value("${jms.activemq.queue}")
+	String queue;
+
+	public void send(String msg) {
+		jmsTemplate.convertAndSend(queue, msg, new MessagePostProcessor() {
+			public Message postProcessMessage(Message m) {
+				try {
+					m.setJMSCorrelationID(UUID.randomUUID().toString());
+					m.setJMSExpiration(1000);
+					m.setJMSMessageID("message-id");
+
+					m.setJMSDeliveryMode(DeliveryMode.PERSISTENT);
+					m.setJMSPriority(Message.DEFAULT_PRIORITY);
+					m.setJMSTimestamp(System.nanoTime());
+					m.setJMSType("type");
+
+					m.setStringProperty("jms-custom-header", "this is a custom jms property");
+					m.setBooleanProperty("jms-custom-property", true);
+					m.setDoubleProperty("jms-custom-property-price", 0.0);
+				} catch (JMSException e) {
+					e.printStackTrace();
+				}
+				return m;
+			}
+
+		});
+	}
+}

@@ -1,0 +1,14 @@
+package com.example.demo.model;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
+
+@Document(indexName = "Sales")
+public class Sales {
+
+	@Id
+	private Integer unitsSold;
+	private String region;
+	private String country;
+
+}

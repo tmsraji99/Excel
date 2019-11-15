@@ -1,0 +1,9 @@
+#elasticsearch.host=localhost
+#elasticsearch.port=9200
+# App config
+#server.port=8102
+#spring.application.name=BootElastic
+
+spring.data.elasticsearch.cluster-name=elasticsearch
+spring.data.elasticsearch.cluster-nodes=localhost:9200
+spring.data.elasticsearch.path-data=D:\\software InstallationRajesh\\elasticsearch-7.4.2

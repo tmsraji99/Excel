@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.demo.sender.Sender;
+
+public class SalesController {
+	@Autowired
+	Sender jmsProducer;
+
+	@RequestMapping(value = "/produce")
+	public String produce(@RequestParam("msg") String msg) {
+		jmsProducer.send(msg);
+		return "Done";
+	}
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Elasticsearch"/>
+<aop-project name="ApplicationA"/>
+<aop-project name="ApplicationB"/>
+</aop-reference-model>

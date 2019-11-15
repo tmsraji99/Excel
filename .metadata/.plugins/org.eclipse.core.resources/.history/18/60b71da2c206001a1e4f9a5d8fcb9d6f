@@ -1,0 +1,8 @@
+package com.example.demo.config;
+
+public class MessagingConfiguration {
+
+	String BROKER_URL = "tcp://localhost:8161";
+	String BROKER_USERNAME = "admin";
+	String BROKER_PASSWORD = "admin";
+}

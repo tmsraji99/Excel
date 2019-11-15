@@ -1,0 +1,11 @@
+package com.example.demo.config;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MessagingConfiguration {
+
+	String BROKER_URL = "tcp://localhost:8161";
+	String BROKER_USERNAME = "admin";
+	String BROKER_PASSWORD = "admin";
+}

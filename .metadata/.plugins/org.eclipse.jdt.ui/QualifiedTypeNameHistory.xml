@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.jms.annotation.EnableJms"/>
+<fullyQualifiedTypeName name="org.springframework.cache.annotation.EnableCaching"/>
+<fullyQualifiedTypeName name="org.springframework.jms.core.JmsTemplate"/>
+<fullyQualifiedTypeName name="com.example.demo.model.EmailImpl"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.google.common.io.Files"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.jms.Queue"/>
+<fullyQualifiedTypeName name="com.example.demo.receiver.Receiver"/>
+<fullyQualifiedTypeName name="org.springframework.jms.core.MessagePostProcessor"/>
+<fullyQualifiedTypeName name="javax.jms.DeliveryMode"/>
+<fullyQualifiedTypeName name="org.springframework.jms.support.converter.MappingJackson2MessageConverter"/>
+<fullyQualifiedTypeName name="org.springframework.jms.support.converter.MessageConverter"/>
+<fullyQualifiedTypeName name="org.springframework.jms.support.converter.MessageType"/>
+<fullyQualifiedTypeName name="javax.jms.Message"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="com.example.demo.repository.SalesRepositoryInf"/>
+<fullyQualifiedTypeName name="com.example.demo.service.SalesServiceImpl"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="com.example.demo.model.Sales"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.config.EnableJpaRepositories"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.data.elasticsearch.config.AbstractElasticsearchConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.data.elasticsearch.annotations.Document"/>
+<fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.elasticsearch.jest.JestAutoConfiguration"/>
+<fullyQualifiedTypeName name="java.net.UnknownHostException"/>
+<fullyQualifiedTypeName name="org.elasticsearch.client.Client"/>
+<fullyQualifiedTypeName name="org.elasticsearch.common.settings.Settings"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.elasticsearch.node.NodeService"/>
+<fullyQualifiedTypeName name="org.elasticsearch.node.Node"/>
+</qualifiedTypeNameHistroy>

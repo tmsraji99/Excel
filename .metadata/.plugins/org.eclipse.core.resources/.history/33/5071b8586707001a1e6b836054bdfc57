@@ -1,0 +1,34 @@
+package com.example.demo.sender;
+
+import javax.jms.JMSException;
+import javax.jms.Message;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessagePostProcessor;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Sender {
+
+	@Autowired
+	JmsTemplate jmsTemplate;
+
+	@Value("${jms.activemq.queue}")
+	String queue;
+
+	public void send(String msg) {
+		jmsTemplate.convertAndSend(queue, msg, new MessagePostProcessor() {
+			public Message postProcessMessage(Message message) {
+				try {
+					message.setJMSCorrelationID(directory.getName());
+				} catch (JMSException e) {
+					e.printStackTrace();
+				}
+				return message;
+			}
+
+		});
+	}
+}

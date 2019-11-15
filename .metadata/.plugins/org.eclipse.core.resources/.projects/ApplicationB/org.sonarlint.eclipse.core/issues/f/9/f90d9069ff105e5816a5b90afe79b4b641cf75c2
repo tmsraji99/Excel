@@ -1,0 +1,7 @@
+
+rsquid:UselessImportCheck",Remove this unused import 'javax.jms.Queue'.(™éæÉûÿÿÿÿ8áŽ‚êæ-HíRMINORZ
+CODE_SMELL
+‡squid:UselessImportCheck"FRemove this unused import 'org.apache.activemq.command.ActiveMQQueue'.(Î¤¾ç8áŽ‚êæ-HîRMINORZ
+CODE_SMELL
+‰squid:UselessImportCheck"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Þ8áŽ‚êæ-HïRMINORZ
+CODE_SMELL

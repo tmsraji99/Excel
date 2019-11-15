@@ -1,0 +1,3 @@
+elasticsearch.clustername=my-application
+elasticsearch.port=9200
+elasticsearch.host=localhost

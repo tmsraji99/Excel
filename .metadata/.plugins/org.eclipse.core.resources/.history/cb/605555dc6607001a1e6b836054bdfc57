@@ -1,0 +1,30 @@
+package com.example.demo.sender;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Sender {
+
+	@Autowired
+	JmsTemplate jmsTemplate;
+
+	@Value("${jms.activemq.queue}")
+	String queue;
+
+	public void send(String msg) {
+		jmsTemplate.convertAndSend(queue, m -> {
+			m.setJMSCorrelationID(UUID.randomUUID().toString());
+			m.setJMSExpiration(1000);
+			m.setJMSMessageID("message-id");
+			m.setJMSDestination(new ActiveMQQueue(ORDER_QUEUE));
+			m.setJMSReplyTo(new ActiveMQQueue(ORDER_QUEUE));
+			m.setJMSDeliveryMode(DeliveryMode.NON_PERSISTENT);
+			m.setJMSPriority(Message.DEFAULT_PRIORITY);
+			m.setJMSTimestamp(System.nanoTime());
+			m.setJMSType("type");
+		});
+	}
+}

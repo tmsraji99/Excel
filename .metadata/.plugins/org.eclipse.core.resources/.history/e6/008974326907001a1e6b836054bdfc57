@@ -1,0 +1,12 @@
+package com.example.demo.receiver;
+
+import org.springframework.jms.annotation.JmsListener;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Receiver {
+	@JmsListener(destination = "${jms.activemq.queue}", containerFactory = "jmsFactory")
+	public void receive(String msg) {
+		System.out.println("Recieved Message: " + msg);
+	}
+}

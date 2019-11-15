@@ -1,0 +1,12 @@
+package com.example.demo;
+
+public class SalesController {
+	@Autowired
+	JmsProducer jmsProducer;
+
+	@RequestMapping(value = "/produce")
+	public String produce(@RequestParam("msg") String msg) {
+		jmsProducer.send(msg);
+		return "Done";
+	}
+}

@@ -1,0 +1,5 @@
+
+†squid:UselessImportCheck"ERemove this unused import 'org.springframework.jms.core.JmsTemplate'.(Æïø„8ÎÜµéæ-HßRMINORZ
+CODE_SMELL
+bsquid:S1452$"&Remove usage of generic wildcard type.(ñ­¬‚þÿÿÿÿ8âÁçéæ-HæRCRITICALZ
+CODE_SMELL

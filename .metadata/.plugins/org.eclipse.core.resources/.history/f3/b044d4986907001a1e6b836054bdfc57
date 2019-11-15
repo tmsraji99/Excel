@@ -1,0 +1,45 @@
+package com.example.demo;
+
+import javax.jms.QueueConnectionFactory;
+
+import org.apache.activemq.ActiveMQConnectionFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.support.converter.MappingJackson2MessageConverter;
+import org.springframework.jms.support.converter.MessageConverter;
+import org.springframework.jms.support.converter.MessageType;
+
+@Configuration
+public class ActiveMqConnectionFactoryConfig {
+
+	@Value("${jms.activemq.broker.url}")
+	String brokerUrl;
+
+	@Value("${jms.activemq.borker.username}")
+	String userName;
+
+	@Value("${jms.activemq.borker.password}")
+	String password;
+
+	@Bean
+	public MessageConverter messageConverter() {
+		MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
+		converter.setTargetType(MessageType.TEXT);
+		converter.setTypeIdPropertyName("_type");
+		return converter;
+	}
+
+	/*
+	 * @Bean public QueueConnectionFactory connectionFactory() {
+	 * ActiveMQConnectionFactory connectionFactory = new
+	 * ActiveMQConnectionFactory(); connectionFactory.setBrokerURL(brokerUrl);
+	 * connectionFactory.setUserName(userName);
+	 * connectionFactory.setPassword(password); return connectionFactory; }
+	 * 
+	 * @Bean public JmsTemplate jmsTemplate() { JmsTemplate template = new
+	 * JmsTemplate(); template.setConnectionFactory(connectionFactory()); return
+	 * template; }
+	 */
+}
