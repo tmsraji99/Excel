@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\trajesh\Downloads\Spring5SecurityOrmMaven-PART-1-CURD"/>
 		<item value="C:\Users\trajesh\Desktop\ojas_traffic_reportImage"/>
 	</list>
 	<section name="CleanDialogSettings">

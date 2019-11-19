@@ -1,0 +1,12 @@
+
+tsquid:S3516$"9Refactor this method to not always return the same value.(’Š÷íÿÿÿÿÿ8ëøÛíç-H„RBLOCKERZ
+CODE_SMELL
+dsquid:S3655!"7Call "findById.isPresent()" before accessing the value.(¼Ä£û8³¼´êç-HóRMAJORZBUG
+dsquid:S3655'"7Call "findById.isPresent()" before accessing the value.(³Ÿš8ëøÛíç-H†RMAJORZBUG
+§squid:S2159'"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(³Ÿš8ëøÛíç-H‡RMAJORZBUG
+qsquid:S2583'"DChange this condition so that it does not always evaluate to "false"(³Ÿš8ëøÛíç-H…RMAJORZBUG
+esquid:S1612",Replace this lambda with a method reference.(ÈŞò®üÿÿÿÿ8¤ñÍéç-HæRMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(òÌÁøÿÿÿÿÿ8¢Ëçç-HÛRMAJORZ
+CODE_SMELL

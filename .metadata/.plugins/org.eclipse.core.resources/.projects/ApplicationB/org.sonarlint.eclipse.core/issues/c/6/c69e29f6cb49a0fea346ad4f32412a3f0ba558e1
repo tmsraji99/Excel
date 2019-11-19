@@ -1,4 +1,6 @@
 
+squid:HiddenFieldCheck"BRename "javaMailSender" which hides the field declared at line 33.(¥ÎÒ“8òíğç-HØRMAJORZ
+CODE_SMELL
 e
-squid:S106"9Replace this use of System.out or System.err by a logger.(•¼HçRMAJORZ
+squid:S1061"9Replace this use of System.out or System.err by a logger.(•¼HÙRMAJORZ
 CODE_SMELL

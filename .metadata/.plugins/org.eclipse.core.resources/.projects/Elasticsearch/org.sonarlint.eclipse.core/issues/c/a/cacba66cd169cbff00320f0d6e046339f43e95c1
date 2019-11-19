@@ -1,0 +1,32 @@
+
+bsquid:S14529"&Remove usage of generic wildcard type.(ÉØ¸ ÿÿÿÿÿ8îÇøíç-HÈ	RCRITICALZ
+CODE_SMELL
+—squid:UselessImportCheck"QRemove this unused import 'org.springframework.web.bind.annotation.RequestParam'.(Â¬À·ùÿÿÿÿ8À¶æíç-HÉ	RMINORZ
+CODE_SMELL
+wsquid:S1155(">Use isEmpty() to check whether the collection is empty or not.(ÒÀÆÜıÿÿÿÿ8«ÓÛéç-HÊ	RMINORZ
+CODE_SMELL
+zsquid:S4684"@Replace this persistent entity with a simple POJO or DTO object.(¼¯Ê¯8¢Ãâøæ-HË	RCRITICALZVULNERABILITY
+qsquid:S25832"DChange this condition so that it does not always evaluate to "false"(ÎíòË8İûÕêç-HÌ	RMAJORZBUG
+~squid:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ä¯À8íÜˆæç-HÍ	RMINORZ
+CODE_SMELL
+bsquid:S1452&"&Remove usage of generic wildcard type.(ÄÑõšúÿÿÿÿ8Ö”Õéç-HÎ	RCRITICALZ
+CODE_SMELL
+vsquid:S2583"DChange this condition so that it does not always evaluate to "false"(øíˆ’ÿÿÿÿÿ8ŒÒ÷çç-HÏ	RMAJORZBUG
+l
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ö¡¹ê8À¶æíç-HĞ	RMAJORZ
+CODE_SMELL
+‡squid:S44888"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(ıº²Ãùÿÿÿÿ8„—şíç-HÑ	RMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(›•…8æùÌçç-HÒ	RMAJORZ
+CODE_SMELL
+¬squid:S2159"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(øíˆ’ÿÿÿÿÿ8«ÓÛéç-HÓ	RMAJORZBUG
+¬squid:S2159("zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(ÒÀÆÜıÿÿÿÿ8İûÕêç-HÔ	RMAJORZBUG
+|squid:S4488%"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(úÛÅì8ê†Ìêç-HÕ	RMINORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æìã(8ë©Ùêç-HÖ	RMAJORZ
+CODE_SMELL
+{squid:S4488."HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(à«t8Ö”Õéç-H×	RMINORZ
+CODE_SMELL
+§squid:S21592"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(ÎíòË8ŒÒ÷çç-HØ	RMAJORZBUG

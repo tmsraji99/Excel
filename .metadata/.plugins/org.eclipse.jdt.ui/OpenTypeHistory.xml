@@ -1,8 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=ApplicationA/C:\/Users\/trajesh\/.m2\/repository\/jakarta\/jms\/jakarta.jms-api\/2.0.3\/jakarta.jms-api-2.0.3.jar&lt;javax.jms(QueueConnectionFactory.class[QueueConnectionFactory" modifiers="1537" timestamp="1573714384782"/>
-<typeInfo handle="=ApplicationA/C:\/Users\/trajesh\/.m2\/repository\/jakarta\/jms\/jakarta.jms-api\/2.0.3\/jakarta.jms-api-2.0.3.jar&lt;javax.jms(MessageListener.class[MessageListener" modifiers="1537" timestamp="1573714384782"/>
-<typeInfo handle="=Elasticsearch/C:\/Users\/trajesh\/.m2\/repository\/org\/springframework\/data\/spring-data-elasticsearch\/3.2.1.RELEASE\/spring-data-elasticsearch-3.2.1.RELEASE.jar&lt;org.springframework.data.elasticsearch.config(AbstractElasticsearchConfiguration.class[AbstractElasticsearchConfiguration" modifiers="1057" timestamp="1573799082149"/>
-<typeInfo handle="=Elasticsearch/C:\/Users\/trajesh\/.m2\/repository\/org\/springframework\/data\/spring-data-elasticsearch\/3.2.1.RELEASE\/spring-data-elasticsearch-3.2.1.RELEASE.jar&lt;org.springframework.data.elasticsearch.client(ClientConfiguration.class[ClientConfiguration" modifiers="1537" timestamp="1573799082149"/>
-<typeInfo handle="=Elasticsearch/C:\/Users\/trajesh\/.m2\/repository\/org\/springframework\/data\/spring-data-elasticsearch\/3.2.1.RELEASE\/spring-data-elasticsearch-3.2.1.RELEASE.jar&lt;org.springframework.data.elasticsearch.core(ElasticsearchEntityMapper.class[ElasticsearchEntityMapper" modifiers="33" timestamp="1573799082149"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
